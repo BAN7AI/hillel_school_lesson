@@ -25,3 +25,29 @@ print(id(my_first_value), id(2), id(3))
 usual_string = "New line \n and tabulation \t here" #\n - new line; \t - tabulation
 print(usual_string)
 
+usual_string = "New line \\n and tabulation \\t here" #напечатать не печатные симфолы
+print(usual_string)
+
+usual_string = r"New line \n and tabulation \t here" #напечатать не печатные симфолы
+print(usual_string)
+
+my_cool_str = "This is my test text"
+format_string = f"Put some value here - {my_cool_str}" #форматирования и вставка переменной в строку
+print(format_string)
+
+format_string_2 = f"More magic = {my_cool_str=}" #форматирования и показывание названия вставленной именем переменно и ее значения
+print(format_string_2)
+
+username = input("Please tell me your name: ") #ввод данных от пользователя
+result = f"Hello {username}, nice to meet you!"
+print(result)
+
+value_one: int = 2
+square_root = value_one ** 0.5 #корень числа
+print(square_root)
+
+# % - остаток от деления
+# // - целочисленное деление (сколько целых делителей входит в число делимое)
+
+value_one *= 2 # value_one = value_one *(/, +, -, //, %) 2
+print(value_one)
