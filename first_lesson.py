@@ -22,3 +22,6 @@ print(number_a, number_b)
 my_first_value = 3
 print(id(my_first_value), id(2), id(3))
 
+usual_string = "New line \n and tabulation \t here" #\n - new line; \t - tabulation
+print(usual_string)
+
